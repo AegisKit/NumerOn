@@ -1,7 +1,6 @@
 from . import user
 import utils.common as common
 
-
 class Player(user.User):
     def __init__(self):
         self.nums = []
